@@ -1,0 +1,48 @@
+.nav {
+  position: absolute;
+  font-size: 0.8rem;
+  z-index: 18;
+  width: 100vw;
+  height: 100vh;
+}
+
+.nav .navMenuRight a {
+  color: var(--text-primary);
+  font-size: 1.1rem;
+}
+
+.nav .navMenuBottom a {
+  color: var(--text-primary);
+  font-size: 1.1rem;
+}
+
+.navName {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  line-height: 1rem;
+  left: 0.5rem;
+  top: 0.5rem;
+}
+
+.navName span {
+  font-size: 1.2rem;
+}
+
+.navMenuRight {
+  position: fixed;
+  right: 0.5rem;
+  top: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  text-align: end;
+}
+
+.navMenuBottom {
+  position: fixed;
+  left: 0.5rem;
+  bottom: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+}

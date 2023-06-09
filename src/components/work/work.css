@@ -1,0 +1,138 @@
+.work {
+  width: 100vw;
+  height: 100vh;
+}
+
+.work .containerWork {
+  display: flex;
+  flex-direction: column;
+  /* align-items: center;
+  justify-content: center; */
+  width: 100%;
+  height: 100%;
+}
+
+.containerWork .workTop {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 100%;
+  height: 50%;
+  justify-content: end;
+}
+
+.workTop .workTitle {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  background-color: burlywood;
+  padding: 1.4rem;
+  top: 4%;
+  right: 10%;
+  border-radius: 15px;
+  box-shadow: -8px 10px 41px 3px rgba(238, 192, 69, 0.7);
+  -webkit-box-shadow: -8px 10px 41px 3px rgba(238, 192, 69, 0.7);
+  -moz-box-shadow: -8px 10px 41px 3px rgba(238, 192, 69, 0.7);
+}
+
+.workTop .workTitle .textTitle {
+  font-size: 3.3rem;
+  line-height: 2.3rem;
+  font-weight: bold;
+  text-shadow: -7px 6px 15px rgba(0, 0, 0, 0.61);
+}
+
+.workTop .miniAboutWork {
+  display: flex;
+  flex-direction: row;
+  align-items: end;
+  height: 16rem;
+  width: 45rem;
+  border-radius: 10px;
+  margin: 0rem 0rem 0rem 4rem;
+  gap: 10px;
+}
+
+.workTop .miniAboutWork .workPicture {
+  width: 14rem;
+  height: 12rem;
+  border-radius: 8px;
+}
+
+.workTop .miniAboutWork .textAboutWork {
+  font-size: 1.3rem;
+  font-weight: 700;
+  line-height: 1.8rem;
+}
+
+.containerWork .workBottom {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 50%;
+}
+
+.workBottom .wrapperSkill {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  /* align-items: start; */
+}
+
+.wrapperSkill .listTechno {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  border-radius: 9px;
+  gap: 1rem;
+}
+
+.wrapperSkill .listTechno img {
+  width: 5rem;
+  height: 5rem;
+  margin: 0.4rem 0rem 0rem 0.4rem;
+  object-fit: contain;
+  /* background-color: black; */
+  /* mix-blend-mode: color-burn; */
+}
+
+.wrapperLastestWork {
+  width: 50%;
+}
+
+.ul {
+  display: flex;
+  font-family: Arial, Helvetica, sans-serif;
+  flex-direction: column;
+  margin: 0.4rem 0rem 0.4rem 0.4rem;
+}
+
+.ul li {
+  list-style: square;
+}
+
+.list {
+  color: blue;
+  text-decoration: underline;
+  cursor: pointer;
+  font-size: larger;
+  line-height: 1.6rem;
+}
+
+.disable {
+  cursor: not-allowed;
+  text-decoration: underline;
+  font-size: larger;
+}
+
+.disable:hover {
+  cursor: not-allowed;
+  color: red;
+  transition: all 0.2s ease-in-out;
+}

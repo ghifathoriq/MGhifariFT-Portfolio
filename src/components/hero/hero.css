@@ -1,0 +1,60 @@
+.hero {
+  background-color: var(--primary-color);
+  height: 100vh;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+/* .containerHero {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+} */
+
+.textField,
+.textOutline {
+  position: absolute;
+  text-transform: uppercase;
+  font-style: italic;
+  pointer-events: none;
+  color: var(--text-primary);
+  z-index: 1;
+  white-space: nowrap;
+  font-size: 7.41rem;
+  transition: all 2s cubic-bezier(0.165, 0.84, 0.44, 1);
+  font-weight: 800;
+}
+
+.firstTitle {
+  position: absolute;
+  top: 36%;
+}
+
+.secondTitle {
+  position: absolute;
+  top: 50%;
+}
+
+.textOutline {
+  z-index: 3;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-width: 2px;
+}
+
+.profilePicture {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.heroPicture {
+  z-index: 2;
+  width: 450px;
+  height: 450px;
+  border-radius: 10px;
+}

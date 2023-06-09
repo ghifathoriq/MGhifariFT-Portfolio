@@ -1,0 +1,106 @@
+.about {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.bgTitleAboutme {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  z-index: 5;
+  width: fit-content;
+}
+
+.bgTitleAboutme .titleAboutme {
+  font-size: 5rem;
+  font-weight: bolder;
+  line-height: 2.7rem;
+  color: #0000006c;
+  text-shadow: -7px 6px 15px rgba(0,0,0,0.61);
+}
+
+.boxAboutText {
+  /* background-color: #041515ed; */
+  width: 80vw;
+  height: 89vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 10px;
+}
+
+.boxAboutText .aboutTitle {
+  font-size: 1.5rem;
+  line-height: 2rem;
+  /* color: #da4ea2; */
+  color: rgb(0, 0, 0);
+  margin: 0.9rem 0rem 0rem 0rem;
+  
+}
+
+.boxAboutText .aboutContent {
+  height: 50rem;
+  width: 98%;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.boxAboutText .aboutContent .wrapperBgText {
+  text-align: center;
+  position: relative;
+  z-index: 7;
+  display: flex;
+  flex-direction: column;
+}
+
+.boxAboutText .aboutContent .wrapperBgText .bgTextAbout {
+  font-size: 4.7rem;
+  font-weight: 800;
+  line-height: 50px;
+  text-transform: uppercase;
+  color: #00000042;
+  pointer-events: none;
+}
+
+.boxAboutText .aboutContent .wrapperTextAbout {
+  position: absolute;
+  z-index: 8;
+  width: 80%;
+  margin: 0rem 3.4rem 0rem 0rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.boxAboutText .aboutContent .wrapperTextAbout .textAbout {
+  font-size: 2rem;
+  font-weight: 800;
+  line-height: 2.4rem;
+  /* color: #b53682; */
+  color: #000000;
+}
+
+.boxAboutText .aboutContent .wrapperTextAbout .cta-work {
+  /* background-color: #0000ffd1; */
+  padding: 0.5rem;
+  margin: 0.5rem 0rem 0rem 0.2rem;
+  width: fit-content;
+  text-align: start;
+  font-size: 1.6rem;
+  font-weight: 600;
+  color: #000000e6;
+  text-decoration: underline;
+  /* border-radius: 5px; */
+}
+
+.boxAboutText .aboutContent .wrapperTextAbout .cta-work:hover {
+  /* background-color: #ba3b87; */
+  /* background-color: #0000ff; */
+  color: #000000;
+  /* transition: 0.3s; */
+}
